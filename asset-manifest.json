@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eNotes-frontend/static/css/main.26f7f45f.css",
+    "main.js": "/eNotes-frontend/static/js/main.ad880428.js",
+    "static/js/787.c5ac571b.chunk.js": "/eNotes-frontend/static/js/787.c5ac571b.chunk.js",
+    "index.html": "/eNotes-frontend/index.html",
+    "main.26f7f45f.css.map": "/eNotes-frontend/static/css/main.26f7f45f.css.map",
+    "main.ad880428.js.map": "/eNotes-frontend/static/js/main.ad880428.js.map",
+    "787.c5ac571b.chunk.js.map": "/eNotes-frontend/static/js/787.c5ac571b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26f7f45f.css",
+    "static/js/main.ad880428.js"
+  ]
+}
