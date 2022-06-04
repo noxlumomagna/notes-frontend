@@ -1,0 +1,44 @@
+.note {
+    padding:1em;
+    position: relative;
+    background-color: aqua;
+    height: 12em;
+    color: black;
+    width: 12em;
+    margin: 1em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-3deg);
+    z-index: 1;
+    transition: all ease 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.note:nth-child(even){
+    position: relative;
+    top: 5px;
+    background-color: rgb(1, 209, 139);
+    transform: rotate(6deg);
+}
+
+.note:nth-child(3n){
+    position: relative;
+    top: 5px;
+    background-color: rgb(251, 255, 0);
+    transform: rotate(-3deg);
+}
+
+.note:hover{
+    transform: scale(1.8);
+    z-index: 5;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.note_text {
+    flex:1;
+}
+
+.note_link{
+    display:none;
+}
